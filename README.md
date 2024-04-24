@@ -4,6 +4,12 @@
 
 ## 测试
 
+### post接口
+设置参数
+- url --- 你请求的url参数 // 不包含host、pathname
+- ua -- 你的user_agent
+- data -- post请求携带数据，get请求为空字符''
+
 ```shell
 curl 'https://abogus.jackluson.workers.dev/' \
   -H 'Accept: application/json, text/plain, */*' \
@@ -31,5 +37,8 @@ response = requests.post('https://abogus.jackluson.workers.dev/', json=data)
 res_json = response.json()
 print("res", res_json)
 print(res_json.get('res').get('abogus'))
+
+### 预设url
+直接点击`https://abogus.jackluson.workers.dev/`
 
 ```
