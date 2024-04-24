@@ -38,7 +38,7 @@ res_json = response.json()
 print("res", res_json)
 print(res_json.get('res').get('abogus'))
 
+```
+
 ### 预设url
 直接点击`https://abogus.jackluson.workers.dev/`
-
-```
