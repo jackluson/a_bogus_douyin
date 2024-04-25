@@ -2,7 +2,7 @@
 
 适用抖音，巨量百应等平台
 
-## 测试
+## 验证(需梯子）
 
 ### post接口
 设置参数
@@ -41,4 +41,4 @@ print(res_json.get('res').get('abogus'))
 ```
 
 ### 预设url
-直接点击`https://abogus.jackluson.workers.dev/`
+直接点击[https://abogus.jackluson.workers.dev/](https://abogus.jackluson.workers.dev/)
