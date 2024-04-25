@@ -45,5 +45,5 @@ print(res_json.get('res').get('abogus'))
 
 ```
 
-### 预设url
+### 预设url参数与ua
 直接点击[https://abogus.jackluson.workers.dev/](https://abogus.jackluson.workers.dev/)
