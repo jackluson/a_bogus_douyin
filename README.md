@@ -5,11 +5,15 @@
 ## 验证(需梯子）
 
 ### post接口
-设置参数
+请求参数
 - url --- 你请求的url参数 // 不包含host、pathname
 - ua -- 你的user_agent
 - data -- post请求携带数据，get请求为空字符''
 
+响应
+返回abogus拼上你的url参数即可
+  
+#### curl
 ```shell
 curl 'https://abogus.jackluson.workers.dev/' \
   -H 'Accept: application/json, text/plain, */*' \
@@ -23,7 +27,7 @@ curl 'https://abogus.jackluson.workers.dev/' \
   -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36' \
   --data-raw '{"url":"source_type=force&request_from=&promotion_ids=3676740194222110808%2C3668960113932265483%2C3664932937922698950&verifyFp=verify_ltmpbxrc_yQud5ZMX_PB82_4ol7_8yt0_F4B9MKxKCHdU&fp=verify_ltmpbxrc_yQud5ZMX_PB82_4ol7_8yt0_F4B9MKxKCHdU&msToken=Ji2QTaG2qrt11TCxVRWTYuvnjY9t5csW-8j9jKrGHOsEfAjtqXAHG2s2SjUGCKNlU1RgJ0894AOFCeD6VSoLsJ1FLRplc-nGV0y-98P1ffrlAxDIj5GKt0crxaUJrA%3D%3D","data":"","ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"}'
 ```
-
+#### python
 ```python
 import requests
 
