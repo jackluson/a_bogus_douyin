@@ -11,6 +11,7 @@
 - data -- post请求携带数据，get请求为空字符''
 
 响应
+
 返回abogus拼上你的url参数即可
   
 #### curl
