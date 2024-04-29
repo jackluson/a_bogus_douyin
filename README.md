@@ -11,6 +11,23 @@
 - data -- post请求携带数据，get请求为空字符''
 
 响应
+```json
+{
+  "code": 0,
+  "res": {
+    "abogus": "O78hM5ggDE6NvDy355/LfY3qVWP3Y0VW0SVkMDhe3V35sy39HMYX9exYw7zvMIueZsQlIeSjy4hcY3BMicQnA3v6HSRKl2xp-g00t-Pg-2mbs147eL0grUXE5ws1tlO25kZWi/ihoXMHYbz04oPe-w9UbfebaHgOEisnOny="
+  },
+  "payload": {
+    "url": "source_type=force&request_from=&promotion_ids=3676740194222110808%2C3668960113932265483%2C3664932937922698950&verifyFp=verify_ltmpbxrc_yQud5ZMX_PB82_4ol7_8yt0_F4B9MKxKCHdU&fp=verify_ltmpbxrc_yQud5ZMX_PB82_4ol7_8yt0_F4B9MKxKCHdU&msToken=Ji2QTaG2qrt11TCxVRWTYuvnjY9t5csW-8j9jKrGHOsEfAjtqXAHG2s2SjUGCKNlU1RgJ0894AOFCeD6VSoLsJ1FLRplc-nGV0y-98P1ffrlAxDIj5GKt0crxaUJrA%3D%3D",
+    "data": "",
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+  },
+  "contact": {
+    "qq": "2357863579",
+    "wechat": "breadwinner-lu"
+  }
+}
+```
 
 返回abogus拼上你的url参数即可
   
