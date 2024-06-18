@@ -8,7 +8,7 @@
 请求参数
 - url --- 你请求的url参数 // 不包含host、pathname
 - ua -- 你的user_agent
-- data -- post请求携带数据，get请求为空字符'' // post请求，需要用json序列化后字符串
+- data -- post请求携带数据，get请求为空字符'' // post请求，data需要用json序列化后字符串
 
 响应
 ```json
